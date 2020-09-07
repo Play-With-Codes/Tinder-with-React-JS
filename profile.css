@@ -1,0 +1,35 @@
+.my__profile
+{
+    /*padding: 20px;*/
+}
+
+.profile__image
+{
+    display: flex;
+    justify-content: center;
+}
+
+.profile__image > img
+{
+    height: 300px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.profile__description
+{
+    padding: 20px;
+}
+
+.profile__description > h2
+{
+    color: rgb(0,0,0,0.85);
+}
+
+.profile__description > p
+{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: gray;
+}
+

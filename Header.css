@@ -1,0 +1,31 @@
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.header__logo
+{
+    height: 40px;
+    object-fit: contain;
+    width: 90px;
+}
+
+.header__icon
+{
+    padding: 20px;
+}
+
+.Notification__Dot
+{
+    padding: 5px;
+    background: rgb(24, 235, 250);
+    position: absolute;
+    top: 48px;
+    right: 30px;
+    height: 8px; width: 8px;
+    color: #fff;
+    border-radius: 50%;
+}
